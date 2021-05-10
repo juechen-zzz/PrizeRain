@@ -1,0 +1,6 @@
+/prize/application,dev=spring.rabbitmq.host=127.0.0.1
+/prize/application,dev=spring.rabbitmq.password=guest
+/prize/application,dev=spring.rabbitmq.port=5673
+/prize/application,dev=spring.rabbitmq.publisher-confirms=true
+/prize/application,dev=spring.rabbitmq.username=guest
+/prize/application,dev=spring.rabbitmq.virtual-host=/

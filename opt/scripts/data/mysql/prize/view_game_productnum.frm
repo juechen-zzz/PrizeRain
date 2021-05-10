@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select `prize`.`card_game_product`.`gameid` AS `gameid`,sum(`prize`.`card_game_product`.`amount`) AS `num` from `prize`.`card_game_product` group by `prize`.`card_game_product`.`gameid`
+md5=92baa36b3775ee97839f737138debea0
+updatable=0
+algorithm=0
+definer_user=root
+definer_host=%
+suid=1
+with_check_option=0
+timestamp=2021-05-04 08:33:36
+create-version=1
+source=select `card_game_product`.`gameid` AS `gameid`,sum(`card_game_product`.`amount`) AS `num` from `card_game_product` group by `card_game_product`.`gameid`
+client_cs_name=utf8mb4
+connection_cl_name=utf8mb4_general_ci
+view_body_utf8=select `prize`.`card_game_product`.`gameid` AS `gameid`,sum(`prize`.`card_game_product`.`amount`) AS `num` from `prize`.`card_game_product` group by `prize`.`card_game_product`.`gameid`

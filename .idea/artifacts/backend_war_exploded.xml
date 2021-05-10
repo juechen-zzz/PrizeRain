@@ -1,0 +1,35 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="backend:war exploded">
+    <output-path>$PROJECT_DIR$/backend/target/ROOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>backend</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="backend" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: com.jfinal:jfinal:3.3" />
+          <element id="library" level="project" name="Maven: cglib:cglib-nodep:3.2.5" />
+          <element id="library" level="project" name="Maven: com.jfinal:cos:26Dec2008" />
+          <element id="library" level="project" name="Maven: com.alibaba:druid:1.1.19" />
+          <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.38" />
+          <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.23" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.7" />
+          <element id="library" level="project" name="Maven: net.sourceforge.javacsv:javacsv:2.0" />
+          <element id="library" level="project" name="Maven: it.sauronsoftware.cron4j:cron4j:2.2.5" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/backend/target/ROOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="backend/web/Web" />
+    </root>
+  </artifact>
+</component>

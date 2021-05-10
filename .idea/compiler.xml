@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="msg" />
+        <module name="coder" />
+        <module name="eureka" />
+        <module name="backend" />
+        <module name="api" />
+        <module name="job" />
+        <module name="commons" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api" target="1.8" />
+      <module name="backend" target="1.8" />
+      <module name="coder" target="1.5" />
+      <module name="commons" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="frontend" target="1.8" />
+      <module name="job" target="1.8" />
+      <module name="msg" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api" options="-parameters" />
+      <module name="commons" options="-parameters" />
+      <module name="eureka" options="-parameters" />
+      <module name="job" options="-parameters" />
+      <module name="msg" options="-parameters" />
+    </option>
+  </component>
+</project>

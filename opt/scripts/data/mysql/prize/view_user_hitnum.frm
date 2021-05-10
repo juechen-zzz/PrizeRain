@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select `h`.`userid` AS `userid`,count(`h`.`id`) AS `num` from `prize`.`card_user_hit` `h` group by `h`.`userid`
+md5=68b806fac0d7c767463ed93726f24799
+updatable=0
+algorithm=0
+definer_user=root
+definer_host=%
+suid=1
+with_check_option=0
+timestamp=2021-05-01 01:39:40
+create-version=1
+source=select `h`.`userid` AS `userid`,count(`h`.`id`) AS `num` from `card_user_hit` `h` group by `h`.`userid`
+client_cs_name=utf8mb4
+connection_cl_name=utf8mb4_general_ci
+view_body_utf8=select `h`.`userid` AS `userid`,count(`h`.`id`) AS `num` from `prize`.`card_user_hit` `h` group by `h`.`userid`

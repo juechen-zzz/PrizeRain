@@ -1,0 +1,20 @@
+/prize/application,dev=spring.datasource.connectionProperties=druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+/prize/application,dev=spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+/prize/application,dev=spring.datasource.filters=stat,wall,log4j
+/prize/application,dev=spring.datasource.initialSize=5
+/prize/application,dev=spring.datasource.maxActive=20
+/prize/application,dev=spring.datasource.maxPoolPreparedStatementPerConnectionSize=20
+/prize/application,dev=spring.datasource.maxWait=60000
+/prize/application,dev=spring.datasource.minEvictableIdleTimeMillis=300000
+/prize/application,dev=spring.datasource.minIdle=5
+/prize/application,dev=spring.datasource.password=root
+/prize/application,dev=spring.datasource.poolPreparedStatements=true
+/prize/application,dev=spring.datasource.testOnBorrow=false
+/prize/application,dev=spring.datasource.testOnReturn=false
+/prize/application,dev=spring.datasource.testWhileIdle=true
+/prize/application,dev=spring.datasource.timeBetweenEvictionRunsMillis=60000
+/prize/application,dev=spring.datasource.type=com.alibaba.druid.pool.DruidDataSource
+/prize/application,dev=spring.datasource.url=jdbc:mysql://127.0.0.1:3307/prize?useUnicode=true&characterEncoding=utf-8
+/prize/application,dev=spring.datasource.useGlobalDataSourceStat=true
+/prize/application,dev=spring.datasource.username=root
+/prize/application,dev=spring.datasource.validationQuery=SELECT 'x'

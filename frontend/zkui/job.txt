@@ -1,0 +1,9 @@
+/prize/job,dev=elaticjob.zookeeper.session-timeout-milliseconds=5000
+/prize/job,dev=server.port=8085
+/prize/job,dev=spring.datasource.druid.joblog.driver-class-name=com.mysql.jdbc.Driver
+/prize/job,dev=spring.datasource.druid.joblog.password=root
+/prize/job,dev=spring.datasource.druid.joblog.url=jdbc:mysql://127.0.0.1:3307/event_log
+/prize/job,dev=spring.datasource.druid.joblog.username=root
+/prize/job,dev=spring.jpa.database=mysql
+/prize/job,dev=spring.jpa.hibernate.ddl-auto=update
+/prize/job,dev=spring.jpa.show-sql=true
